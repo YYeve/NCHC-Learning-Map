@@ -1,0 +1,459 @@
+@charset "utf-8";
+section {
+	display: block;
+}
+#one {
+	background-image: url(../img/web-07.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#two {
+	background-image: url(../img/web_01.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#three {
+	background-image: url(../img/web-05.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#four {
+	background-image: url(../img/web_02.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#five {
+	background-image: url(../img/web_03.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#six {
+	background-image: url(../img/web-06.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.circle {
+	height: 45%;
+	width: 62%;
+	left: 20%;
+	right: 20%;
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+}
+.circle_in_up {
+	height: 22.2%;
+	width: 12.5%;
+	float: left;
+}
+.icons {
+	height: 30%;
+	width: 47%;
+	left: 20%;
+	right: 20%;
+	position: absolute;
+	top: 10%;
+	bottom: 20%
+}
+.top {
+	height: 9.1%;
+	width: 20%;
+	float: left;
+}
+.down {
+	height: 9.1%;
+	width: 20%;
+	margin-top: 20%;
+	float: left;
+}
+.title {
+	height: 28.6%;
+	clear: both;
+	float: left;
+}
+.astronomy {
+	height: 600px;
+	width: 1110px;
+	padding-top: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.astronomy_left {
+	height: 600px;
+	width: 440px;
+	float: left;
+}
+.astronomy_right {
+	height: 600px;
+	width: 440px;
+	float: left;
+	margin: 30px;
+	padding-top: 5%;
+}
+.atmosphere {
+	height: 77.8%;
+	width: 52%;
+	padding-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.atmosphere_left {
+	width: 30%;
+	float: left;
+	padding-right:3%;
+}
+.atmosphere_right {
+	width: 34.3%;
+	height: 78.7%;
+	float: left;
+}
+.item-star1 {
+	height: 34px;
+	width: 33px;
+	float: left;
+	margin-top: 0.1%;
+	background-image: url(../img/01/star1.png);
+	background-repeat: no-repeat;
+}
+.item-star2 {
+	height: 34px;
+	width: 33px;
+	float: left;
+	margin-left: 75%;
+	background-image: url(../img/01/star2.png);
+	background-repeat: no-repeat;
+}
+.item-plante1 {
+	height: 67px;
+	width: 68px;
+	float: left;
+	margin-left: 31%;
+	margin-top: 18.9%;
+	background-image: url(../img/01/plante1.png);
+	background-repeat: no-repeat;
+}
+.item-plante2 {
+	height: 30px;
+	width: 31px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 15%;
+	background-image: url(../img/01/plante2-12.png);
+	background-repeat: no-repeat;
+}
+.item-plante3 {
+	height: 158px;
+	width: 280px;
+	margin-left: 37%;
+	margin-top: 40%;
+	background-image: url(../img/01/plante4-13.png);
+	background-repeat: no-repeat;
+}
+.item-plante4 {
+	height: 30px;
+	width: 31px;
+	margin-left: 37%;
+	background-image: url(../img/01/plante3-12.png);
+	background-repeat: no-repeat;
+}
+.item-star3 {
+	height: 34px;
+	width: 33px;
+	float: left;
+	margin-left: 15%;
+	background-image: url(../img/01/star3.png);
+	background-repeat: no-repeat;
+}
+.item-rocket {
+	height: 107px;
+	width: 70px;
+	float: left;
+	margin-left: 80%;
+	background-image: url(../img/01/Rocket.png);
+	background-repeat: no-repeat;
+}
+.item-ET {
+	height: 84px;
+	width: 85px;
+	float: left;
+	margin-top: 2%;
+	background-image: url(../img/01/ET.png);
+	background-repeat: no-repeat;
+}
+@-webkit-keyframes spaceboots {
+ 0% {
+-webkit-transform: translate(2px, 1px) rotate(0deg);
+}
+ 10% {
+-webkit-transform: translate(-1px, -2px) rotate(-1deg);
+}
+ 20% {
+-webkit-transform: translate(-3px, 0px) rotate(1deg);
+}
+ 30% {
+-webkit-transform: translate(0px, 2px) rotate(0deg);
+}
+ 40% {
+-webkit-transform: translate(1px, -1px) rotate(1deg);
+}
+ 50% {
+-webkit-transform: translate(-1px, 2px) rotate(-1deg);
+}
+ 60% {
+-webkit-transform: translate(-3px, 1px) rotate(0deg);
+}
+ 70% {
+-webkit-transform: translate(2px, 1px) rotate(-1deg);
+}
+ 80% {
+-webkit-transform: translate(-1px, -1px) rotate(1deg);
+}
+ 90% {
+-webkit-transform: translate(2px, 2px) rotate(0deg);
+}
+ 100% {
+-webkit-transform: translate(1px, -2px) rotate(-1deg);
+}
+}
+.item-rocket {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.item-frame {
+	height: 850px;
+	width: 660px;
+	background-image: url(../img/02/frame.png);
+	background-repeat: no-repeat;
+}
+.item-satellite {
+	height: 151px;
+	width: 660px;
+	background-image: url(../img/02/satellite.png);
+	background-repeat: no-repeat;
+}
+.item-line {
+	height: 1px;
+	width: 460px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(255,255,255);
+	margin-right: 100px;
+	margin-left: 100px;
+	moz-box-shadow: 1px 1px 3px 4px rgba(20%,20%,40%,0.5);
+	-webkit-box-shadow: 1px 1px 3px 4px rgba(20%,20%,40%,0.5);
+	box-shadow: 1px 1px 3px 4px rgba(20%,20%,40%,0.5);
+}
+.item-light {
+	height: 161px;
+	width: 660px;
+	background-image: url(../img/02/light.png);
+	background-repeat: no-repeat;
+}
+.item-comet {
+	height: 161px;
+	width: 660px;
+	background-image: url(../img/02/comet.png);
+	background-repeat: no-repeat;
+}
+.item-O3 {
+	height: 161px;
+	width: 660px;
+	background-image: url(../img/02/O3.png);
+	background-repeat: no-repeat;
+}
+.item-cloud {
+	height: 195px;
+	width: 660px;
+	background-image: url(../img/02/cloud.png);
+	background-repeat: no-repeat;
+}
+.geology_title {
+	height: 100%;
+	width: 30%;
+	float: left;
+	padding-top: 3%;
+	padding-left: 20%;
+}
+.geology {
+	height: 100%;
+	width: 100%;
+}
+.item-baby {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/baby.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-mom {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/mom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-dad {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/dad.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-grand {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/grand.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-grand1 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/grand1.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-grand2 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/grand2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-sea {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/sea.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-mountain {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/03/moutain_top.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: absolute;
+}
+.item-sun {
+	height: 535px;
+	width: 532px;
+	padding-left: 15%;
+	padding-right: 50%;
+	margin-top: 3%;
+	background-image: url(../img/06/sun-08.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: absolute;
+	z-index: 1;
+}
+.item-boy {
+	height: 615px;
+	width: 347px;
+	padding-left: 10%;
+	padding-right: 50%;
+	margin-top: 15%;
+	background-image: url(../img/06/boy-08.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: absolute;
+	z-index: 2;
+}
+.ocean_title {
+	width: 40%;
+	top: 12%;
+	bottom: 12%;
+	padding-left:30%
+	float:left;
+	position: absolute;
+}
+.ocean {
+	width: 50%;
+	top: 12%;
+	bottom: 12%;
+		float:left;
+
+}
+.item-ice {
+	height: 389px;
+	width: 350px;
+	margin-left: 10%;
+	background-image: url(../img/05/ice-08.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.item-fish {
+	height: 112px;
+	width: 241px;
+	margin-left: 10%;
+	margin-top: 3%;
+	background-image: url(../img/05/fish-08.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: left;
+}
+.item-Merman {
+	height: 200px;
+	width: 359px;
+	margin-top: 5%;
+	background-image: url(../img/05/Merman-08.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	clear: both;
+	float: left;
+}
+
+.main #four .geology_title table tr td p {
+	color: rgb(153,51,0);	
+}
+.main #four .geology_title table tr td h1 {
+	letter-spacing: 8px;
+}
+.main #three .atmosphere .atmosphere_left table tr td h1 {
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-family: "Poiret One";
+	font-size: 24px;
+	color: rgb(255,102,51);
+}
+p {
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	line-height: 2em;
+	color: rgb(255,255,255);
+	text-align: justify;
+	padding-top: 15px;
+	font-weight: lighter;
+	-ms-text-justify: inter-ideograph; /*IE9*/
+	　-moz-text-align-last: justify; /*Firefox*/
+	　-webkit-text-align-last: justify; /*Chrome*/
+}

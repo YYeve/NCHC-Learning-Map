@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>地球科學學習地圖網站</title>
+<style type="text/css"></style>
+<link href="css/reset_css.css" rel="stylesheet" type="text/css" >
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" >
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+
+<body>
+<nav><a href="#one">one</a> <a href="#two">two</a> <a href="#three">three</a> <a href="#four">four</a> <a href="#five">five</a> <a href="#six">six</a></nav>
+<section id="one">
+  <div class="icons">
+    <div class="top  rubberBand animated" ><img src="img/ocean.png" width="175" height="175" alt="ocean"></a></div>
+    <div class="down  rubberBand animated" data-wow-delay="1s" ><a href="http://140.110.96.34/earth_science/geology.aspx"><img src="img/geology.png" width="175" height="175" alt="geology"></a></div>
+    <div class="top  rubberBand animated" ><img src="img/global.png" width="175" height="175" alt="global"></div>
+    <div class="down  rubberBand animated"><a href="http://140.110.96.34/earth_science/atmosphere.aspx"><img src="img/atmosphere.png" width="175" height="175" alt="atmosphere"></a></div>
+    <div class="top  rubberBand animated"><img src="img/astronomy.png" width="175" height="175" alt="astronomy"></div>
+  </div>
+</section>
+<section id="two">page two</section>
+<section id="three">page three</section>
+<section id="four">page four</section>
+<section id="five">page five</section>
+<section id="six">page six</section>
+</body>
+</html>
