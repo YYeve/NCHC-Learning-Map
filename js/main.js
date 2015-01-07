@@ -50,10 +50,11 @@ $(function() {
   		$(this).removeClass("wow rubberBand animated").dequeue();
   	    });
             
-	    setTimeout( function.show() {
-		$(".item-star3").addClass('wow bounceIn animated').delay(1000).queue(function(){
-  		    $(this).removeClass("wow bounceIn animated").dequeue();
-		});
+	    setTimeout( function() {
+			$(".item-star3").show();
+			$(".item-star3").addClass('wow bounceIn animated').delay(1000).queue(function(){
+				$(this).removeClass("wow bounceIn animated").dequeue();
+			});
 	    },500);
 	    
 	    
