@@ -387,18 +387,15 @@ section {
 	z-index: 2;
 }
 .ocean_title {
-	width: 40%;
-	top: 12%;
-	bottom: 12%;
-	padding-left:30%
+	width: 20%;
+	margin-top: 40%;
+	padding-left:20%;
 	float:left;
-	position: absolute;
 }
 .ocean {
-	width: 50%;
-	top: 12%;
-	bottom: 12%;
-		float:left;
+	width: 40%;
+	margin-top: 5%;
+	float:left;
 
 }
 .item-ice {
