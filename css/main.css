@@ -363,11 +363,11 @@ section {
 	position: absolute;
 }
 .item-sun {
-	height: 535px;
-	width: 532px;
+	height: 75%;
+	width: 49.2%;
 	padding-left: 15%;
-	padding-right: 50%;
-	margin-top: 3%;
+	padding-right: 30%;
+	margin-top: 1%;
 	background-image: url(../img/06/sun-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -375,25 +375,35 @@ section {
 	z-index: 1;
 }
 .item-boy {
-	height: 615px;
-	width: 347px;
+	height: 85%;
+	width: 25%;
 	padding-left: 10%;
-	padding-right: 50%;
-	margin-top: 15%;
+	padding-right: 30%;
+	margin-top: 13%;
 	background-image: url(../img/06/boy-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: absolute;
 	z-index: 2;
 }
+
+.global-earth_title {
+	width: 35%;
+	padding-left: 40%;
+	padding-top: 31%;
+	position: absolute;
+	z-index: 3;
+}
+
 .ocean_title {
 	width: 20%;
-	margin-top: 40%;
+	margin-top: 15%;
 	padding-left:20%;
+	padding-right:2%;
 	float:left;
 }
 .ocean {
-	width: 40%;
+	width: 50%;
 	margin-top: 5%;
 	float:left;
 
@@ -401,16 +411,26 @@ section {
 .item-ice {
 	height: 389px;
 	width: 350px;
-	margin-left: 10%;
 	background-image: url(../img/05/ice-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
+
+.item-bear {
+	height: 389px;
+	width: 350px;
+	margin-top: 3%;
+	margin-left: 30%;
+	background-image: url(../img/05/bear-08.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
 .item-fish {
 	height: 112px;
 	width: 241px;
-	margin-left: 10%;
-	margin-top: 3%;
+	margin-top: 5%;
+	margin-left:10%;
 	background-image: url(../img/05/fish-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -419,7 +439,7 @@ section {
 .item-Merman {
 	height: 200px;
 	width: 359px;
-	margin-top: 5%;
+	margin-top: 8%;
 	background-image: url(../img/05/Merman-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
