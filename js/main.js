@@ -29,12 +29,7 @@ $(function() {
 		$(".item-star3").hide();
    },  
    // This option accepts a callback function. The function will be called before the page moves.
-   afterMove: function(index) {
-
-   		
-
-
-	   	//set delay and display animation
+   afterMove: function(index) {//set delay and display animation
 		$(".icons").addClass('wow bounce animated').delay(1000).queue(function(){
 			$(this).removeClass("wow bounce animated").dequeue();
 		});
