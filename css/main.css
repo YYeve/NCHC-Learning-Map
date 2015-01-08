@@ -124,7 +124,7 @@ section {
 .atmosphere_left {
 	width: 30%;
 	float: left;
-	padding-right:3%;
+	padding-right: 3%;
 }
 .atmosphere_right {
 	width: 34.3%;
@@ -204,7 +204,35 @@ section {
 	background-image: url(../img/01/ET.png);
 	background-repeat: no-repeat;
 }
-@-webkit-keyframes spaceboots {
+.astronomy_english {
+	font-family: "Poiret One";
+	font-size: 24px;
+	color: rgb(255,102,51);
+}
+.astronomy_title {
+	width: 160px;
+	height: 90px;
+	background-image: url(../img/index/astronomy_1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.astronomy_icon {
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/astronomy.png);
+	background-repeat: no-repeat;
+	float: left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.astronomy_intro {
+	clear:both;
+	float:left;
+}
+
+ @-webkit-keyframes spaceboots {
  0% {
 -webkit-transform: translate(2px, 1px) rotate(0deg);
 }
@@ -386,7 +414,6 @@ section {
 	position: absolute;
 	z-index: 2;
 }
-
 .global-earth_title {
 	width: 35%;
 	padding-left: 40%;
@@ -394,19 +421,17 @@ section {
 	position: absolute;
 	z-index: 3;
 }
-
 .ocean_title {
 	width: 20%;
 	margin-top: 15%;
-	padding-left:20%;
-	padding-right:2%;
-	float:left;
+	padding-left: 20%;
+	padding-right: 2%;
+	float: left;
 }
 .ocean {
 	width: 50%;
 	margin-top: 5%;
-	float:left;
-
+	float: left;
 }
 .item-ice {
 	height: 389px;
@@ -415,7 +440,6 @@ section {
 	background-repeat: no-repeat;
 	background-position: center top;
 }
-
 .item-bear {
 	height: 389px;
 	width: 350px;
@@ -425,12 +449,11 @@ section {
 	background-repeat: no-repeat;
 	background-position: left top;
 }
-
 .item-fish {
 	height: 112px;
 	width: 241px;
 	margin-top: 5%;
-	margin-left:10%;
+	margin-left: 10%;
 	background-image: url(../img/05/fish-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -446,9 +469,8 @@ section {
 	clear: both;
 	float: left;
 }
-
 .main #four .geology_title table tr td p {
-	color: rgb(153,51,0);	
+	color: rgb(153,51,0);
 }
 .main #four .geology_title table tr td h1 {
 	letter-spacing: 8px;
@@ -456,7 +478,6 @@ section {
 .main #three .atmosphere .atmosphere_left table tr td h1 {
 	letter-spacing: 1px;
 }
-
 h1 {
 	font-family: "Poiret One";
 	font-size: 24px;
