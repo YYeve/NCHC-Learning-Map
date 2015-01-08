@@ -152,52 +152,116 @@ $(function() {
 		
 		//中間線	
 		setTimeout( function(){
-			$(".item_line").show();
-			$(".item_line").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+			$(".item-line").show();
+			$(".item-line").addClass('wow fadeInUp animated').delay(1000).queue(function(){
   		 	$(this).removeClass("wow fadeInUp animated").dequeue();
   			});
 			},1000);
 		
 		//第一層-雲	
 		setTimeout( function(){
-			$(".item_cloud").show();
-			$(".item_cloud").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+			$(".item-cloud").show();
+			$(".item-cloud").addClass('wow fadeInRight animated').delay(1000).queue(function(){
   		 	$(this).removeClass("wow fadeInRight animated").dequeue();
   			});
 			},1500);
 		
 		//第二層-臭氧	
 		setTimeout( function(){
-			$(".item_O3").show();
-			$(".item_O3").addClass('wow fadeIn animated').delay(1000).queue(function(){
+			$(".item-O3").show();
+			$(".item-O3").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
 			},2000);
 			
 		//第三層-隕石	
 		setTimeout( function(){
-			$(".item_comet").show();
-			$(".item_comet").addClass('wow fadeIn animated').delay(1000).queue(function(){
+			$(".item-comet").show();
+			$(".item-comet").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
 			},2500);
 		
 		//第四層-極光	
 		setTimeout( function(){
-			$(".item_light").show();
-			$(".item_light").addClass('wow fadeIn animated').delay(1000).queue(function(){
+			$(".item-light").show();
+			$(".item-light").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
 			},3000);
 			
 		//第五層-衛星	
 		setTimeout( function(){
-			$(".item_satellite").show();
-			$(".item_satellite").addClass('wow fadeIn animated').delay(1000).queue(function(){
+			$(".item-satellite").show();
+			$(".item-satellite").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
 			},4000);
-		
+			
+		//第1層-baby	
+		setTimeout( function(){
+			$(".item-baby").show();
+			$(".item-baby").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1000);
+			
+//		第2層-mom	
+//		setTimeout( function(){
+//			$(".item-mom").show();
+//			$(".item-mom").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},4000);
+//			
+//		第3層-dad	
+//		setTimeout( function(){
+//			$(".item-dad").show();
+//			$(".item-dad").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},5000);
+//			
+//		第4層-grand	
+//		setTimeout( function(){
+//			$(".item-grand").show();
+//			$(".item-grand").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},6000);
+//			
+//		第5層-grand1	
+//		setTimeout( function(){
+//			$(".item-grand1").show();
+//			$(".item-grand1").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},7000);
+//			
+//		第6層-grand2	
+//		setTimeout( function(){
+//			$(".item-grand2").show();
+//			$(".item-grand2").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},8000);
+//			
+//		第7層-海	
+//		setTimeout( function(){
+//			$(".item-sea").show();
+//			$(".item-sea").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInDown animated").dequeue();
+//  			});
+//			},9000);
+//			
+//		第8層-火山	
+//		setTimeout( function(){
+//			$(".item-mountain").show();
+//			$(".item-mountain").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},10000);
+
 		
 			
 		

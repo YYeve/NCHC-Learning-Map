@@ -419,6 +419,36 @@ section {
 	background-position: center top;
 	position: absolute;
 }
+
+.geology_english {
+	font-family: "Poiret One";
+	font-size: 24px;
+	color: rgb(255,102,51);
+}
+.geology_title2 {
+	width: 160px;
+	height: 90px;
+	background-image: url(../img/index/geology_1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.geology_icon {
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/geology.png);
+	background-repeat: no-repeat;
+	float: left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.geology_intro {
+	clear: both;
+	float: left;
+	color: rgb(204,0,0);	
+}
+
 .item-sun {
 	height: 75%;
 	width: 49.2%;

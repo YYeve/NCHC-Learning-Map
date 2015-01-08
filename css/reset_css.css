@@ -86,3 +86,6 @@ code, kbd, samp {
 	text-align: justify;
 	display: inline-block;
 }
+.geology_intro p {
+	color: rgb(153,0,0);
+}
