@@ -95,28 +95,110 @@ $(function() {
 		
 		//天文	
 		setTimeout( function(){
-		$(".astronomy_title").show();
-		$(".astronomy_title").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-  		 $(this).removeClass("wow fadeInUp animated").dequeue();
-  		});
-		},1000);
+			$(".astronomy_title").show();
+			$(".astronomy_title").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1000);
 		
 		//天文icon	
 		setTimeout( function(){
-		$(".astronomy_icon").show();
-		$(".astronomy_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
-  		 $(this).removeClass("wow fadeInRight animated").dequeue();
-  		});
-		},1500);
+			$(".astronomy_icon").show();
+			$(".astronomy_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},1500);
 		
 		//天文介紹文字	
 		setTimeout( function(){
-		$(".astronomy_intro").show();
-		$(".astronomy_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
-  		 $(this).removeClass("wow fadeIn animated").dequeue();
-  		});
-		},2000);
+			$(".astronomy_intro").show();
+			$(".astronomy_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},2000);
 			
+		//atmosphere	
+		setTimeout( function(){
+		$(".atmosphere_english").show();
+		$(".atmosphere_english").addClass('wow fadeInDown animated').delay(1000).queue(function(){
+  		 $(this).removeClass("wow fadeInDown animated").dequeue();
+  		});
+		},500);
+		
+		//大氣	
+		setTimeout( function(){
+			$(".atmosphere_title").show();
+			$(".atmosphere_title").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1000);
+		
+		//大氣icon	
+		setTimeout( function(){
+			$(".atmosphere_icon").show();
+			$(".atmosphere_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},1500);
+		
+		//大氣介紹文字	
+		setTimeout( function(){
+			$(".atmosphere_intro").show();
+			$(".atmosphere_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},2000);
+			
+		
+		//中間線	
+		setTimeout( function(){
+			$(".item_line").show();
+			$(".item_line").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1000);
+		
+		//第一層-雲	
+		setTimeout( function(){
+			$(".item_cloud").show();
+			$(".item_cloud").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},1500);
+		
+		//第二層-臭氧	
+		setTimeout( function(){
+			$(".item_O3").show();
+			$(".item_O3").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},2000);
+			
+		//第三層-隕石	
+		setTimeout( function(){
+			$(".item_comet").show();
+			$(".item_comet").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},2500);
+		
+		//第四層-極光	
+		setTimeout( function(){
+			$(".item_light").show();
+			$(".item_light").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},3000);
+			
+		//第五層-衛星	
+		setTimeout( function(){
+			$(".item_satellite").show();
+			$(".item_satellite").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},4000);
+		
+		
 			
 		
 	   },   // This option accepts a callback function. The function will be called after the page moves.

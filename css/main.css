@@ -125,6 +125,7 @@ section {
 	width: 30%;
 	float: left;
 	padding-right: 3%;
+	padding-top:20%;
 }
 .atmosphere_right {
 	width: 34.3%;
@@ -273,6 +274,34 @@ section {
 	-webkit-transform-origin: 50% 50%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+}
+
+.atmosphere_english {
+	font-family: "Poiret One";
+	font-size: 24px;
+	color: rgb(255,102,51);
+}
+.atmosphere_title {
+	width: 160px;
+	height: 90px;
+	background-image: url(../img/index/atmosphere_1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.atmosphere_icon {
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/atmosphere.png);
+	background-repeat: no-repeat;
+	float: left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.atmosphere_intro {
+	clear:both;
+	float:left;
 }
 .item-frame {
 	height: 850px;
