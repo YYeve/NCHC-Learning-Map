@@ -198,15 +198,15 @@ $(function() {
   			});
 			},4000);
 			
-		//第1層-baby	
-		setTimeout( function(){
-			$(".item-baby").show();
-			$(".item-baby").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-  			});
-			},1000);
-			
-//		第2層-mom	
+		////第1層-baby	
+//		setTimeout( function(){
+//			$(".item-baby").show();
+//			$(".item-baby").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+//  			});
+//			},1000);
+//			
+//		//第2層-mom	
 //		setTimeout( function(){
 //			$(".item-mom").show();
 //			$(".item-mom").addClass('wow fadeInUp animated').delay(1000).queue(function(){
@@ -214,7 +214,7 @@ $(function() {
 //  			});
 //			},4000);
 //			
-//		第3層-dad	
+//		//第3層-dad	
 //		setTimeout( function(){
 //			$(".item-dad").show();
 //			$(".item-dad").addClass('wow fadeInUp animated').delay(1000).queue(function(){
@@ -222,7 +222,7 @@ $(function() {
 //  			});
 //			},5000);
 //			
-//		第4層-grand	
+//		//第4層-grand	
 //		setTimeout( function(){
 //			$(".item-grand").show();
 //			$(".item-grand").addClass('wow fadeInUp animated').delay(1000).queue(function(){
@@ -230,7 +230,7 @@ $(function() {
 //  			});
 //			},6000);
 //			
-//		第5層-grand1	
+//		//第5層-grand1	
 //		setTimeout( function(){
 //			$(".item-grand1").show();
 //			$(".item-grand1").addClass('wow fadeInUp animated').delay(1000).queue(function(){
@@ -238,7 +238,7 @@ $(function() {
 //  			});
 //			},7000);
 //			
-//		第6層-grand2	
+//		//第6層-grand2	
 //		setTimeout( function(){
 //			$(".item-grand2").show();
 //			$(".item-grand2").addClass('wow fadeInUp animated').delay(1000).queue(function(){
@@ -246,15 +246,15 @@ $(function() {
 //  			});
 //			},8000);
 //			
-//		第7層-海	
-//		setTimeout( function(){
-//			$(".item-sea").show();
-//			$(".item-sea").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInDown animated").dequeue();
-//  			});
-//			},9000);
+		//第7層-海	
+		setTimeout( function(){
+			$(".item-sea").show();
+			$(".item-sea").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInDown animated").dequeue();
+  			});
+			},9000);
 //			
-//		第8層-火山	
+//		//第8層-火山	
 //		setTimeout( function(){
 //			$(".item-mountain").show();
 //			$(".item-mountain").addClass('wow fadeInUp animated').delay(1000).queue(function(){
