@@ -14,10 +14,22 @@ $(function() {
    updateURL: false,           
         
    // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-   beforeMove: function(index) {},  
+   beforeMove: function(index) {
+   	//hide all element
+		$(".astronomy_english").hide();
+		$(".astronomy_title").hide();
+		$(".astronomy_icon").hide();
+		$(".astronomy_intro").hide();
+		$(".item-ET").hide();
+		$(".item-plante1").hide();
+		$(".item-plante2").hide();
+		$(".item-plante3").hide();
+		$(".item-star1").hide();
+		$(".item-star2").hide();
+		$(".item-star3").hide();
+   },  
    // This option accepts a callback function. The function will be called before the page moves.
-   afterMove: function(index) {
-	   	//set delay and display animation
+   afterMove: function(index) {//set delay and display animation
 		$(".icons").addClass('wow bounce animated').delay(1000).queue(function(){
 			$(this).removeClass("wow bounce animated").dequeue();
 		});
