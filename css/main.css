@@ -125,7 +125,7 @@ section {
 	width: 30%;
 	float: left;
 	padding-right: 3%;
-	padding-top:20%;
+	padding-top: 20%;
 }
 .atmosphere_right {
 	width: 34.3%;
@@ -229,10 +229,9 @@ section {
 	background-size: cover;
 }
 .astronomy_intro {
-	clear:both;
-	float:left;
+	clear: both;
+	float: left;
 }
-
  @-webkit-keyframes spaceboots {
  0% {
 -webkit-transform: translate(2px, 1px) rotate(0deg);
@@ -275,7 +274,6 @@ section {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-
 .atmosphere_english {
 	font-family: "Poiret One";
 	font-size: 24px;
@@ -300,8 +298,8 @@ section {
 	background-size: cover;
 }
 .atmosphere_intro {
-	clear:both;
-	float:left;
+	clear: both;
+	float: left;
 }
 .item-frame {
 	height: 850px;
@@ -368,6 +366,8 @@ section {
 	background-image: url(../img/03/baby.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 13;
 }
 .item-mom {
 	height: 100%;
@@ -375,6 +375,8 @@ section {
 	background-image: url(../img/03/mom.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 12;
 }
 .item-dad {
 	height: 100%;
@@ -382,6 +384,8 @@ section {
 	background-image: url(../img/03/dad.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 11;
 }
 .item-grand {
 	height: 100%;
@@ -389,6 +393,8 @@ section {
 	background-image: url(../img/03/grand.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 10;
 }
 .item-grand1 {
 	height: 100%;
@@ -396,6 +402,8 @@ section {
 	background-image: url(../img/03/grand1.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 9;
 }
 .item-grand2 {
 	height: 100%;
@@ -403,6 +411,8 @@ section {
 	background-image: url(../img/03/grand2.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 8;
 }
 .item-sea {
 	height: 100%;
@@ -410,6 +420,8 @@ section {
 	background-image: url(../img/03/sea.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: absolute;
+	z-index: 6;
 }
 .item-mountain {
 	height: 100%;
@@ -418,8 +430,8 @@ section {
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: absolute;
+	z-index: 7;
 }
-
 .geology_english {
 	font-family: "Poiret One";
 	font-size: 24px;
@@ -446,9 +458,8 @@ section {
 .geology_intro {
 	clear: both;
 	float: left;
-	color: rgb(204,0,0);	
+	color: rgb(204,0,0);
 }
-
 .item-sun {
 	height: 75%;
 	width: 49.2%;
@@ -492,41 +503,102 @@ section {
 	margin-top: 5%;
 	float: left;
 }
+.ocean_english {
+	font-family: "Poiret One";
+	font-size: 24px;
+	color: rgb(255,102,51);
+}
+.ocean_title2 {
+	width: 160px;
+	height: 90px;
+	background-image: url(../img/index/ocean-1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.ocean_icon {
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/ocean.png);
+	background-repeat: no-repeat;
+	float: left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.ocean_intro {
+	clear: both;
+	float: left;
+}
 .item-ice {
 	height: 389px;
 	width: 350px;
+	margin-left: 10%;
+	margin-top: 1.5%;
 	background-image: url(../img/05/ice-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
+	position: absolute;
+	z-index: 16;
 }
 .item-bear {
 	height: 389px;
 	width: 350px;
-	margin-top: 3%;
-	margin-left: 30%;
+	margin-left: 9.5%;
+	margin-top: 1.8%;
 	background-image: url(../img/05/bear-08.png);
 	background-repeat: no-repeat;
 	background-position: left top;
+	position: absolute;
+	z-index: 15;
 }
+
+ @-webkit-keyframes spaceboots {
+ 0% {
+-webkit-transform: translate(2px, 0px) rotate(0deg);
+}
+
+ 50% {
+-webkit-transform: translate(2px, -10px) rotate(-1deg);
+}
+
+ 100% {
+-webkit-transform: translate(2px, 0px) rotate(0deg);
+}
+}
+.item-bear {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 5s;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease;
+}
+
 .item-fish {
 	height: 112px;
 	width: 241px;
-	margin-top: 5%;
-	margin-left: 10%;
+	margin-top: 25%;
+	margin-left: 30%;
 	background-image: url(../img/05/fish-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	float: left;
+	position: absolute;
+	z-index: 16;
+
 }
 .item-Merman {
 	height: 200px;
 	width: 359px;
-	margin-top: 8%;
+	margin-top: 28%;
+	margin-left: 8%;
 	background-image: url(../img/05/Merman-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	clear: both;
 	float: left;
+	position: absolute;
+	z-index: 16;
 }
 .main #four .geology_title table tr td p {
 	color: rgb(153,51,0);
@@ -554,3 +626,4 @@ p {
 	　-moz-text-align-last: justify; /*Firefox*/
 	　-webkit-text-align-last: justify; /*Chrome*/
 }
+

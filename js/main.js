@@ -23,10 +23,45 @@ $(function() {
 		$(".item-ET").hide();
 		$(".item-plante1").hide();
 		$(".item-plante2").hide();
-		$(".item-plante3").hide();
+//		$(".item-plante3").hide();
+		$(".item-plante4").hide();
 		$(".item-star1").hide();
 		$(".item-star2").hide();
 		$(".item-star3").hide();
+
+	 	$(".atmosphere_english").hide();
+	 	$(".atmosphere_title").hide();
+	 	$(".atmosphere_icon").hide();
+	 	$(".atmosphere_intro").hide();
+	 	$(".item-satellite").hide();
+	 	$(".item-line").hide();
+	 	$(".item-light").hide();
+		$(".item-comet").hide();
+		$(".item-O3").hide();
+	 	$(".item-cloud").hide();
+     	$(".item-frame").hide();
+
+		$(".geology_english").hide();
+	 	$(".geology_title").hide();
+	 	$(".geology_icon").hide();
+	 	$(".geology_intro").hide();
+		$(".item-baby").hide();
+	 	$(".item-dad").hide();
+	 	$(".item-mom").hide();
+		$(".item-grand").hide();
+		$(".item-grand1").hide();
+	 	$(".item-grand2").hide();
+     	$(".item-sea").hide();
+		$(".item-mountain").hide();
+		
+		$(".ocean_english").hide();
+	 	$(".ocean_title2").hide();
+	 	$(".ocean_icon").hide();
+	 	$(".ocean_intro").hide();
+
+
+		
+		
    },  
    // This option accepts a callback function. The function will be called before the page moves.
    afterMove: function(index) {//set delay and display animation
@@ -210,69 +245,150 @@ $(function() {
   			});
 			},4000);
 			
-		////第1層-baby	
-//		setTimeout( function(){
-//			$(".item-baby").show();
-//			$(".item-baby").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},1000);
-//			
-//		//第2層-mom	
-//		setTimeout( function(){
-//			$(".item-mom").show();
-//			$(".item-mom").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},4000);
-//			
-//		//第3層-dad	
-//		setTimeout( function(){
-//			$(".item-dad").show();
-//			$(".item-dad").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},5000);
-//			
-//		//第4層-grand	
-//		setTimeout( function(){
-//			$(".item-grand").show();
-//			$(".item-grand").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},6000);
-//			
-//		//第5層-grand1	
-//		setTimeout( function(){
-//			$(".item-grand1").show();
-//			$(".item-grand1").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},7000);
-//			
-//		//第6層-grand2	
-//		setTimeout( function(){
-//			$(".item-grand2").show();
-//			$(".item-grand2").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},8000);
-//			
+		//geology	
+		setTimeout( function(){
+		$(".geology_english").show();
+		$(".geology_english").addClass('wow fadeInDown animated').delay(1000).queue(function(){
+  		 $(this).removeClass("wow fadeInDown animated").dequeue();
+  		});
+		},600);
+		
+		//地質	
+		setTimeout( function(){
+			$(".geology_title2").show();
+			$(".geology_title2").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1600);
+		
+		//地質icon	
+		setTimeout( function(){
+			$(".geology_icon").show();
+			$(".geology_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},2200);
+		
+		//地質介紹文字	
+		setTimeout( function(){
+			$(".geology_intro").show();
+			$(".geology_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},3200);
+
+		
+		//第1層-baby	
+		setTimeout( function(){
+			$(".item-baby").show();
+			$(".item-baby").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},100);
+			
+		//第2層-mom	
+		setTimeout( function(){
+			$(".item-mom").show();
+			$(".item-mom").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},500);
+			
+		//第3層-dad	
+		setTimeout( function(){
+			$(".item-dad").show();
+			$(".item-dad").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},1000);
+			
+		//第4層-grand	
+		setTimeout( function(){
+			$(".item-grand").show();
+			$(".item-grand").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},1200);
+			
+		//第5層-grand1	
+		setTimeout( function(){
+			$(".item-grand1").show();
+			$(".item-grand1").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},1300);
+			
+		//第6層-grand2	
+		setTimeout( function(){
+			$(".item-grand2").show();
+			$(".item-grand2").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},1400);
+			
 		//第7層-海	
 		setTimeout( function(){
 			$(".item-sea").show();
-			$(".item-sea").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-  			 $(this).removeClass("wow fadeInDown animated").dequeue();
+			$(".item-sea").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
   			});
-			},9000);
-//			
-//		//第8層-火山	
-//		setTimeout( function(){
-//			$(".item-mountain").show();
-//			$(".item-mountain").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-//  			 $(this).removeClass("wow fadeInUp animated").dequeue();
-//  			});
-//			},10000);
+			},1500);
+			
+		//第8層-火山	
+		setTimeout( function(){
+			$(".item-mountain").show();
+			$(".item-mountain").addClass('wow bounceInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow bounceInUp animated").dequeue();
+  			});
+			},3000);
+			
+		//ocean	
+		setTimeout( function(){
+		$(".ocean_english").show();
+		$(".ocean_english").addClass('wow fadeInDown animated').delay(1000).queue(function(){
+  		 $(this).removeClass("wow fadeInDown animated").dequeue();
+  		});
+		},600);
+		
+		//海洋title	
+		setTimeout( function(){
+			$(".ocean_title2").show();
+			$(".ocean_title2").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1600);
+		
+		//海洋icon	
+		setTimeout( function(){
+			$(".ocean_icon").show();
+			$(".ocean_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},2200);
+		
+		//海洋介紹文字	
+		setTimeout( function(){
+			$(".ocean_intro").show();
+			$(".ocean_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},3200);
+			
+		//冰山	
+		setTimeout( function(){
+			$(".item-ice").removeAttr("style").css({'visibility':"visible"});
+			$(".item-ice").addClass('wow fadeInRightBig animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInRightBig animated").dequeue();
+  			});
+			},2200);
+			
+		setTimeout( function(){
+			$(".item-bear").removeAttr("style").css({'visibility':"visible"});
+			$(".item-bear").addClass('wow fadeInRightBig animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInRightBig animated").dequeue();
+  			});
+			},2300);
+
 
 		
 			
