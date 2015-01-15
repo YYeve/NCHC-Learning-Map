@@ -89,30 +89,41 @@ section {
 }
 
 .top3 {
-	height: 9.1%;
+	height: 60%;
 	width: 20%;
 	float: left;
+	background-image: url(../img/global.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.top5 {
+	height: 60%;
+	width: 20%;
+	float: left;
+	background-image: url(../img/astronomy.png);
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .down2 {
-	height: 9.1%;
+	height: 60%;
 	width: 20%;
 	margin-top: 20%;
 	float: left;
+	background-image: url(../img/geology.png);
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .down4 {
-	height: 9.1%;
+	height: 60%;
 	width: 20%;
 	margin-top: 20%;
 	float: left;
-}
-
-.down5 {
-	height: 9.1%;
-	width: 20%;
-	margin-top: 20%;
-	float: left;
+	background-image: url(../img/atmosphere.png);
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .title {
@@ -329,8 +340,11 @@ section {
 .item-frame {
 	height: 850px;
 	width: 660px;
-	background-image: url(../img/02/frame.png);
-	background-repeat: no-repeat;
+	border: 3px solid rgb(255,255,255);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 .item-satellite {
 	height: 151px;

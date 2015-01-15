@@ -23,11 +23,11 @@ $(function() {
 		$(".item-ET").hide();
 		$(".item-plante1").hide();
 		$(".item-plante2").hide();
-//		$(".item-plante3").hide();
 		$(".item-plante4").hide();
 		$(".item-star1").hide();
 		$(".item-star2").hide();
 		$(".item-star3").hide();
+		$(".item-rocket").hide();
 
 	 	$(".atmosphere_english").hide();
 	 	$(".atmosphere_title").hide();
@@ -39,20 +39,39 @@ $(function() {
 		$(".item-comet").hide();
 		$(".item-O3").hide();
 	 	$(".item-cloud").hide();
-     	$(".item-frame").hide();
 
-		//$(".geology_english").hide();
-//	 	$(".geology_title").hide();
-//	 	$(".geology_icon").hide();
-//	 	$(".geology_intro").hide();
-//		$(".item-baby").hide();
-//	 	$(".item-dad").hide();
-//	 	$(".item-mom").hide();
-//		$(".item-grand").hide();
-//		$(".item-grand1").hide();
-//	 	$(".item-grand2").hide();
-//     	$(".item-sea").hide();
-//		$(".item-mountain").hide();
+
+		$(".geology_english").hide();
+	 	$(".geology_title2").hide();
+	 	$(".geology_icon").hide();
+	 	$(".geology_intro").hide();
+		$(".item-baby").hide();
+	 	$(".item-dad").hide();
+	 	$(".item-mom").hide();
+		$(".item-grand").hide();
+		$(".item-grand1").hide();
+	 	$(".item-grand2").hide();
+     	$(".item-sea").hide();
+		$(".item-mountain").hide();
+		
+		
+		$(".ocean_english").hide();
+	 	$(".ocean_title2").hide();
+	 	$(".ocean_icon").hide();
+	 	$(".ocean_intro").hide();
+		$(".item-bear").hide();
+	 	$(".item-ice").hide();
+		$(".item-fish").hide();
+	 	$(".item-Merman").hide();
+		
+		
+		$(".global-earth_english").hide();
+	 	$(".global-earth_title2").hide();
+	 	$(".global-earth_icon").hide();
+	 	$(".global-earth_intro").hide();
+	 	$(".item-sun").hide();
+		$(".item-boy").hide();
+
 		
    },  
    // This option accepts a callback function. The function will be called before the page moves.
@@ -60,10 +79,11 @@ $(function() {
 		$(".icons").addClass('wow bounce animated').delay(1000).queue(function(){
 			$(this).removeClass("wow bounce animated").dequeue();
 		});
+
 		
 		//星星1
 		setTimeout( function() {
-			$(".item-star1").show();
+			$(".item-star1").removeAttr("style").css({'visibility':"visible"});
 			$(".item-star1").addClass('wow bounceIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow bounceIn animated").dequeue();
   			});
@@ -71,7 +91,7 @@ $(function() {
 		
 		//星星2
 		setTimeout( function() {
-			$(".item-star2").show();
+			$(".item-star2").removeAttr("style").css({'visibility':"visible"});
 			$(".item-star2").addClass('wow bounceIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow bounceIn animated").dequeue();
   			});
@@ -79,7 +99,7 @@ $(function() {
 		
 		//星星3
 		setTimeout( function() {
-			$(".item-star3").show();
+			$(".item-star3").removeAttr("style").css({'visibility':"visible"});
 			$(".item-star3").addClass('wow bounceIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow bounceIn animated").dequeue();
   			});
@@ -87,7 +107,7 @@ $(function() {
 		
 		//plante1 黃星球
 		setTimeout( function() {
-			$(".item-plante1").show();
+			$(".item-plante1").removeAttr("style").css({'visibility':"visible"});
 			$(".item-plante1").addClass('wow rubberBand animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow rubberBand animated").dequeue();
   		});
@@ -95,7 +115,7 @@ $(function() {
 		
 		//plante2 綠星球
 		setTimeout( function() {
-			$(".item-plante2").show();
+			$(".item-plante2").removeAttr("style").css({'visibility':"visible"});
 			$(".item-plante2").addClass('wow rubberBand animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow rubberBand animated").dequeue();
   		});
@@ -103,7 +123,7 @@ $(function() {
 		
 		//plante3 菊星球
 		setTimeout( function() {
-			$(".item-plante3").show();
+			$(".item-plante3").removeAttr("style").css({'visibility':"visible"});
 			$(".item-plante3").addClass('wow rubberBand animated').delay(1000).queue(function(){
 				 $(this).removeClass("wow rubberBand animated").dequeue();
 			});
@@ -111,7 +131,7 @@ $(function() {
 		
 		//plante2 紫星球
 		setTimeout( function() {
-			$(".item-plante4").show();
+			$(".item-plante4").removeAttr("style").css({'visibility':"visible"});
 			$(".item-plante4").addClass('wow rubberBand animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow rubberBand animated").dequeue();
   		});
@@ -119,14 +139,22 @@ $(function() {
 		
 		//ET
 		setTimeout( function(){
-			$(".item-ET").show();
+			$(".item-ET").removeAttr("style").css({'visibility':"visible"});
 			$(".item-ET").addClass('wow rollIn animated').delay(1000).queue(function(){
 				 $(this).removeClass("wow rollIn animated").dequeue();
-			});}, 1000);
+			});}, 2500);
+			
+		//火箭
+		setTimeout( function(){
+			$(".item-rocket").removeAttr("style").css({'visibility':"visible"});
+			$(".item-rocket").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+				 $(this).removeClass("wow fadeInUp animated").dequeue();
+			});}, 1600);
+			
 			
 		//astronomy	
 		setTimeout( function(){
-		$(".astronomy_english").show();
+		$(".astronomy_english").removeAttr("style").css({'visibility':"visible"});
 		$(".astronomy_english").addClass('wow fadeInDown animated').delay(1000).queue(function(){
   		 $(this).removeClass("wow fadeInDown animated").dequeue();
   		});
@@ -134,7 +162,7 @@ $(function() {
 		
 		//天文	
 		setTimeout( function(){
-			$(".astronomy_title").show();
+			$(".astronomy_title").removeAttr("style").css({'visibility':"visible"});
 			$(".astronomy_title").addClass('wow fadeInUp animated').delay(1000).queue(function(){
   		 	$(this).removeClass("wow fadeInUp animated").dequeue();
   			});
@@ -142,7 +170,7 @@ $(function() {
 		
 		//天文icon	
 		setTimeout( function(){
-			$(".astronomy_icon").show();
+			$(".astronomy_icon").removeAttr("style").css({'visibility':"visible"});
 			$(".astronomy_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
   		 	$(this).removeClass("wow fadeInRight animated").dequeue();
   			});
@@ -150,7 +178,7 @@ $(function() {
 		
 		//天文介紹文字	
 		setTimeout( function(){
-			$(".astronomy_intro").show();
+			$(".astronomy_intro").removeAttr("style").css({'visibility':"visible"});
 			$(".astronomy_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
@@ -158,7 +186,7 @@ $(function() {
 			
 		//atmosphere	
 		setTimeout( function(){
-		$(".atmosphere_english").show();
+		$(".atmosphere_english").removeAttr("style").css({'visibility':"visible"});
 		$(".atmosphere_english").addClass('wow fadeInDown animated').delay(1000).queue(function(){
   		 $(this).removeClass("wow fadeInDown animated").dequeue();
   		});
@@ -166,7 +194,7 @@ $(function() {
 		
 		//大氣	
 		setTimeout( function(){
-			$(".atmosphere_title").show();
+			$(".atmosphere_title").removeAttr("style").css({'visibility':"visible"});
 			$(".atmosphere_title").addClass('wow fadeInUp animated').delay(1000).queue(function(){
   		 	$(this).removeClass("wow fadeInUp animated").dequeue();
   			});
@@ -174,7 +202,7 @@ $(function() {
 		
 		//大氣icon	
 		setTimeout( function(){
-			$(".atmosphere_icon").show();
+			$(".atmosphere_icon").removeAttr("style").css({'visibility':"visible"});
 			$(".atmosphere_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
   		 	$(this).removeClass("wow fadeInRight animated").dequeue();
   			});
@@ -182,60 +210,62 @@ $(function() {
 		
 		//大氣介紹文字	
 		setTimeout( function(){
-			$(".atmosphere_intro").show();
+			$(".atmosphere_intro").removeAttr("style").css({'visibility':"visible"});
 			$(".atmosphere_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
 			},2000);
 			
+
+			
 		
 		//中間線	
 		setTimeout( function(){
-			$(".item-line").show();
-			$(".item-line").addClass('wow fadeInUp animated').delay(1000).queue(function(){
-  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+			$(".item-line").removeAttr("style").css({'visibility':"visible"});
+			$(".item-line").addClass('wow flipInY animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow flipInY animated").dequeue();
   			});
-			},1000);
+			},2000);
 		
 		//第一層-雲	
 		setTimeout( function(){
-			$(".item-cloud").show();
-			$(".item-cloud").addClass('wow fadeInRight animated').delay(1000).queue(function(){
-  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+			$(".item-cloud").removeAttr("style").css({'visibility':"visible"});
+			$(".item-cloud").addClass('wow flipInX animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow flipInX animated").dequeue();
   			});
-			},1500);
+			},3500);
 		
 		//第二層-臭氧	
 		setTimeout( function(){
-			$(".item-O3").show();
-			$(".item-O3").addClass('wow fadeIn animated').delay(1000).queue(function(){
-  			 $(this).removeClass("wow fadeIn animated").dequeue();
+			$(".item-O3").removeAttr("style").css({'visibility':"visible"});
+			$(".item-O3").addClass('wow flipInX animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow flipInX animated").dequeue();
   			});
-			},2000);
+			},3000);
 			
 		//第三層-隕石	
 		setTimeout( function(){
-			$(".item-comet").show();
-			$(".item-comet").addClass('wow fadeIn animated').delay(1000).queue(function(){
-  			 $(this).removeClass("wow fadeIn animated").dequeue();
+			$(".item-comet").removeAttr("style").css({'visibility':"visible"});
+			$(".item-comet").addClass('wow flipInX animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow flipInX animated").dequeue();
   			});
 			},2500);
 		
 		//第四層-極光	
 		setTimeout( function(){
-			$(".item-light").show();
+			$(".item-light").removeAttr("style").css({'visibility':"visible"});
 			$(".item-light").addClass('wow fadeIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow fadeIn animated").dequeue();
   			});
-			},3000);
+			},2000);
 			
 		//第五層-衛星	
 		setTimeout( function(){
-			$(".item-satellite").show();
-			$(".item-satellite").addClass('wow fadeIn animated').delay(1000).queue(function(){
-  			 $(this).removeClass("wow fadeIn animated").dequeue();
+			$(".item-satellite").removeAttr("style").css({'visibility':"visible"});
+			$(".item-satellite").addClass('wow flipInX animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow flipInX animated").dequeue();
   			});
-			},4000);
+			},1500);
 			
 		//geology	
 		setTimeout( function(){
@@ -373,6 +403,23 @@ $(function() {
   			 $(this).removeClass("wow fadeInRightBig animated").dequeue();
   			});
 			},2200);
+			
+		//魚	
+		setTimeout( function(){
+			$(".item-fish").removeAttr("style").css({'visibility':"visible"});
+			$(".item-fish").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},1200);
+			
+		//美人魚	
+		setTimeout( function(){
+			$(".item-Merman").removeAttr("style").css({'visibility':"visible"});
+			$(".item-Merman").addClass('wow fadeInLeft animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInLeft animated").dequeue();
+  			});
+			},1800);
+			
 		//熊	
 		setTimeout( function(){
 			$(".item-bear").removeAttr("style").css({'visibility':"visible"});
@@ -387,7 +434,47 @@ $(function() {
 			$(".item-sun").addClass('wow zoomIn animated').delay(1000).queue(function(){
   			 $(this).removeClass("wow zoomIn animated").dequeue();
   			});
+			},500);
+			
+		//boy	
+		setTimeout( function(){
+			$(".item-boy").removeAttr("style").css({'visibility':"visible"});
+			$(".item-boy").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
 			},1000);
+			
+		//global-earth
+		setTimeout( function(){
+		$(".global-earth_english").removeAttr("style").css({'visibility':"visible"});
+		$(".global-earth_english").addClass('wow fadeInDown animated').delay(1000).queue(function(){
+  		 $(this).removeClass("wow fadeInDown animated").dequeue();
+  		});
+		},600);
+		
+		//全球環境title	
+		setTimeout( function(){
+			$(".global-earth_title2").removeAttr("style").css({'visibility':"visible"});
+			$(".global-earth_title2").addClass('wow fadeInUp animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInUp animated").dequeue();
+  			});
+			},1600);
+		
+		//全球環境icon	
+		setTimeout( function(){
+			$(".global-earth_icon").removeAttr("style").css({'visibility':"visible"});
+			$(".global-earth_icon").addClass('wow fadeInRight animated').delay(1000).queue(function(){
+  		 	$(this).removeClass("wow fadeInRight animated").dequeue();
+  			});
+			},2200);
+		
+		//全球環境介紹文字	
+		setTimeout( function(){
+			$(".global-earth_intro").removeAttr("style").css({'visibility':"visible"});
+			$(".global-earth_intro").addClass('wow fadeIn animated').delay(1000).queue(function(){
+  			 $(this).removeClass("wow fadeIn animated").dequeue();
+  			});
+			},3200);
 
 
 		
