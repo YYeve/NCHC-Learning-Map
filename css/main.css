@@ -148,7 +148,7 @@ section {
 	width: 440px;
 	float: left;
 	margin: 30px;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 .atmosphere {
 	height: 77.8%;
@@ -468,6 +468,7 @@ section {
 	background-image: url(../img/03/moutain_top.png);
 	background-repeat: no-repeat;
 	background-position: center top;
+	margin-top:0%;
 	position: absolute;
 	z-index: 7;
 }
@@ -644,7 +645,7 @@ section {
 	height: 389px;
 	width: 350px;
 	margin-left: 10%;
-	margin-top: 1.5%;
+	margin-top: 0.2%;
 	background-image: url(../img/05/ice-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -655,7 +656,7 @@ section {
 	height: 389px;
 	width: 350px;
 	margin-left: 9.5%;
-	margin-top: 1.8%;
+	margin-top: 0.3%;
 	background-image: url(../img/05/bear-08.png);
 	background-repeat: no-repeat;
 	background-position: left top;
@@ -729,8 +730,8 @@ section {
 .item-Merman {
 	height: 200px;
 	width: 359px;
-	margin-top: 28%;
-	margin-left: 8%;
+	margin-top: 24%;
+	margin-left: 5%;
 	background-image: url(../img/05/Merman-08.png);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -796,4 +797,3 @@ p {
 	　-moz-text-align-last: justify; /*Firefox*/
 	　-webkit-text-align-last: justify; /*Chrome*/
 }
-
