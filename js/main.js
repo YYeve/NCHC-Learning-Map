@@ -27,7 +27,6 @@ $(function() {
 		$(".item-star1").hide();
 		$(".item-star2").hide();
 		$(".item-star3").hide();
-
    },  
    // This option accepts a callback function. The function will be called before the page moves.
    afterMove: function(index) {//set delay and display animation
