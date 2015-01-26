@@ -30,6 +30,27 @@ $(function() {
    },  
    // This option accepts a callback function. The function will be called before the page moves.
    afterMove: function(index) {//set delay and display animation
+		var width, height;
+		width=$(window).width();
+		height=$(window).height();
+		if(height<=720){
+			$(".astronomy").css("padding-top","125px");
+
+			$(".atmosphere").css("width","60%");
+
+
+		}
+		if(width<=1024){
+			$(".atmosphere").css("width","80%");
+			$(".item-frame").css({"width":"550px","background-size":"100%"});
+			$(".item-satellite").css({"width":"550px","background-size":"100%"});
+			$(".item-light").css({"width":"550px","background-size":"100%"});
+			$(".item-comet").css({"width":"550px","background-size":"100%"});
+			$(".item-O3").css({"width":"550px","background-size":"100%"});
+			$(".item-cloud").css({"width":"550px","background-size":"100%"});
+			$(".item-line").css("width","380px");
+		}
+
 		$(".icons").addClass('wow bounce animated').delay(1000).queue(function(){
 			$(this).removeClass("wow bounce animated").dequeue();
 		});
