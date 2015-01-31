@@ -33,22 +33,54 @@ $(function() {
 		var width, height;
 		width=$(window).width();
 		height=$(window).height();
-		if(height<=720){
-			$(".astronomy").css("padding-top","125px");
+		if(height<1080){
+			var eh=height/8;
+			eh=eh+"px"
+			$(".astronomy").css("padding-top",eh);
 
 			$(".atmosphere").css("width","60%");
 
+			$(".geology_title").css({"position":"inherit","z-index":"1"});
+			$(".geology_title table").css({"background-color":"rgba(250,250,200,0.5)"});
+
+			if(height<=900){
+				var frame_h=height/10*9;
+				var frame_w=frame_h*0.78;
+				frame_h=frame_h+"px"
+				frame_w=frame_w+"px"
+				
+				$(".item-frame").css({"height":frame_h,"width":frame_w,"background-size":"100%"});
+				$(".item-satellite").css({"width":"99%","background-size":"100%","height":"18%"});
+				$(".item-light").css({"width":"99%","background-size":"100%","height":"19%"});
+				$(".item-comet").css({"width":"99%","background-size":"100%","height":"19%"});
+				$(".item-O3").css({"width":"99%","background-size":"100%","height":"19%"});
+				$(".item-cloud").css({"width":"99%","background-size":"100%","height":"23%"});
+				$(".item-line").css({"width":"70%","margin-right":"15%","margin-left":"15%"});
+
+				if(height<=800){
+					$(".atmosphere").css({"width":"65%"});
+					$(".atmosphere_left").css({"width":"50%"});
+					$(".item-sun").css({"background-size":"auto 100%"});
+					$(".item-boy").css({"background-size":"auto 100%","margin-top":"5%"});
+					$(".global-earth_title").css({"padding-top":"22%"});
+					
+				}
+			}
+			
+
+			
 
 		}
-		if(width<=1024){
-			$(".atmosphere").css("width","80%");
-			$(".item-frame").css({"width":"550px","background-size":"100%"});
-			$(".item-satellite").css({"width":"550px","background-size":"100%"});
-			$(".item-light").css({"width":"550px","background-size":"100%"});
-			$(".item-comet").css({"width":"550px","background-size":"100%"});
-			$(".item-O3").css({"width":"550px","background-size":"100%"});
-			$(".item-cloud").css({"width":"550px","background-size":"100%"});
-			$(".item-line").css("width","380px");
+
+		if(width<=1200){
+			if(width<=1024){
+				$(".atmosphere").css("width","80%");
+			}
+			else{
+				$(".atmosphere").css("width","70%");
+				
+			}
+		
 		}
 
 		$(".icons").addClass('wow bounce animated').delay(1000).queue(function(){
