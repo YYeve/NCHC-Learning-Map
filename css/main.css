@@ -73,10 +73,10 @@ section {
 .icons {
 	height: 30%;
 	width: 47%;
-	left: 20%;
+	left: 18%;
 	right: 20%;
 	position: absolute;
-	top: 10%;
+	top: 5%;
 	bottom: 20%
 }
 .top {
@@ -87,7 +87,7 @@ section {
 .down {
 	height: 9.1%;
 	width: 20%;
-	margin-top: 20%;
+	margin-top: 25%;
 	float: left;
 }
 .title {
